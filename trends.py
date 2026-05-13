@@ -1,15 +1,20 @@
 """
 Google Trends Pearson Correlation Analyzer
--------------------------------------------
+
 Interactively prompts for two search terms, a date range, and a region,
 then fetches Google Trends data and computes the Pearson correlation.
 
 Requirements:
+    Python Packages:
+    pytrends, scipy, and pandas.
+
+    linux install:
+    --------------
     pip install pytrends scipy pandas
     (If you hit a urllib3 >=2.0 error, also run: pip install "urllib3<2.0")
 
-Usage:
-    python trends_correlation.py
+    for windows manage them via IDE package manager or something
+    -----------------------------------------------------------
 """
 
 import sys
